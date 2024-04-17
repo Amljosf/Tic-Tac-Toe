@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: rgb(153, 177, 46);
+}
+.game{
+    text-align: center;
+}
+.gamelayer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 230px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 50px;
+
+
+}
+#restartbtn{
+    width:80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(180, 175, 175) ;
+}
